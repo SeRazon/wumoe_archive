@@ -1,0 +1,32 @@
+{
+    "isekai-widgets": "异世界百科 小部件",
+    "isekai-widgets-desc": "在异世界百科上使用的一些小部件",
+    
+    "isekai-createpage-page-title": "页面标题",
+    "isekai-createpage-create-page": "新建页面",
+    "isekai-createpage-create-page-button": "创建",
+    "isekai-createpage-page-exists": "已有相同名字的页面存在，换一个名字吧。",
+    "isekai-createpage-title-empty": "请填写标题",
+    "isekai-createpage-redirecting": "正在跳转，请稍后……",
+
+    "isekai-discover-langcode": "zh",
+    "isekai-discover-randompage": "随机页面",
+    "isekai-discover-loading": "加载中……",
+	"isekai-discover-change-btn": "换一个",
+    "isekai-discover-readmore-btn": "查看",
+    "isekai-discover-error-cannotload": "无法从服务器加载数据",
+
+    "isekai-feed-list-title": "最近更新",
+
+    "isekai-fontface-error-invalid-params": "请提供src和name参数。",
+    "isekai-fontface-error-font-name-invalid": "字体名中不能包含特殊字符。",
+    "isekai-fontface-error-font-not-exists": "字体文件 \"$1\" 不存在。",
+    "isekai-fontface-error-font-already-defined": "字体 \"$1\" 已引用，请检查重复引用。",
+    
+    "isekai-font-error-invalid-params": "请提供name参数。",
+    "isekai-font-error-font-name-invalid": "字体名中不能包含特殊字符。",
+    "isekai-font-error-font-not-imported": "未导入字体: \"$1\"。",
+
+    "isekai-information-title-base-information": "基本资料",
+    "isekai-information-error-invalid-type": "提供的信息框类型错误"
+}

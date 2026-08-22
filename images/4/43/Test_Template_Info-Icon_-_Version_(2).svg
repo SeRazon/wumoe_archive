@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   height="800"
+   width="1792"
+   id="svg6325"
+   sodipodi:docname="Test_Template_Info-Icon_-_Version_(3).svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata6329">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="733"
+     id="namedview6327"
+     showgrid="false"
+     inkscape:zoom="0.50558036"
+     inkscape:cx="936.80083"
+     inkscape:cy="359.1"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g_main-objects" />
+  <desc
+     id="desc6225"> Info-Template Image - for Wikimedia Commons - created 2014 by Jaybear </desc>
+  <!-- ## Start: Dev-Comments ##  (File: WP-Template-Info-Icon_06.svg) - - >
+
+Created by:  Jaybear 2014-01-21 10:00
+Last Change: Jaybear 2014-01-22 17:00 (Filters: shaodows added, extended & reduced; i-char: opacity reduced)
+
+http://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients
+
+Glyph-Gradient inside:
+Hellblau:    141, 178, 243
+Mittelblau:    0,  54, 146
+Dunkelblau:   54, 101, 183
+Glyph-Border outside:
+Medium-Blue:  68, 120, 183
+
+rgb(141, 178, 243)
+rgb(  0,  54, 146)
+rgb( 54, 101, 183)
+rgb( 68, 120, 183)
+
+- - - -
+
+## Given png-Icon:
+Circle-Border-Top:     rgb( 56,  93, 138)
+Circle-Border-Bottom:  rgb( 56,  93, 138)
+Circle-Body-Top:       rgb( 71, 127, 196)
+Circle-Body-Bottom:    rgb( 38,  73, 115)
+
+## New svg-Icon Version (4):
+Circle-Border-Top:     rgb( 70, 122, 184)
+Circle-Border-Bottom:  rgb( 74, 126, 188)
+Circle-Body-Top:       rgb(147, 181, 242)
+Circle-Body-Bottom:    rgb( 57, 102, 179)
+
+- - - -
+
+< !- - ## End: Dev-Comments ## -->
+  <defs
+     id="def_main">
+    <linearGradient
+       id="grad-glyphrad-2"
+       x1="0.00"
+       y1="0.00"
+       x2="0.00"
+       y2="1.00">
+      <stop
+         offset="0.00"
+         style="stop-color:rgb( 62, 116, 179); stop-opacity:1"
+         id="stop6227" />
+      <stop
+         offset="1.00"
+         style="stop-color:rgb( 72, 126, 189); stop-opacity:1"
+         id="stop6229" />
+    </linearGradient>
+    <linearGradient
+       id="grad-glyphrad-border-3"
+       x1="0.00"
+       y1="0.00"
+       x2="0.00"
+       y2="1.00">
+      <stop
+         offset="0.00"
+         style="stop-color: rgb( 56,  93, 138); stop-opacity: 1"
+         id="stop6232" />
+      <stop
+         offset="1.00"
+         style="stop-color: rgb( 56,  93, 138); stop-opacity: 1"
+         id="stop6234" />
+    </linearGradient>
+    <linearGradient
+       id="grad-glyphrad-body-4"
+       x1="0.00"
+       y1="0.00"
+       x2="0.00"
+       y2="1.00">
+      <stop
+         offset="0.00"
+         style="stop-color: rgb( 71, 127, 196); stop-opacity: 1"
+         id="stop6237" />
+      <stop
+         offset="1.00"
+         style="stop-color: rgb( 38,  73, 115); stop-opacity: 1"
+         id="stop6239" />
+    </linearGradient>
+    <linearGradient
+       id="grad-jay-vert-1"
+       x1="0.00"
+       x2="0.00"
+       y1="0.00"
+       y2="1.00">
+      <stop
+         offset="0.00"
+         stop-color="rgb(141, 178, 243)"
+         id="stop6242" />
+      <stop
+         offset="0.78"
+         stop-color="rgb(  0,  54, 146)"
+         id="stop6244" />
+      <stop
+         offset="1.00"
+         stop-color="rgb( 54, 101, 183)"
+         id="stop6246" />
+    </linearGradient>
+    <filter
+       id="filt-bracket-1"
+       x="-1.00"
+       y="-1.00"
+       width="2.50"
+       height="2.50">
+      <feOffset
+         result="offOut"
+         in="SourceGraphic"
+         dx="20.00"
+         dy="20.00"
+         id="feOffset6249" />
+      <feBlend
+         in="SourceGraphic"
+         in2="offOut"
+         mode="normal"
+         id="feBlend6251" />
+    </filter>
+    <filter
+       id="filt-bracket-2"
+       x="-1.00"
+       y="-1.00"
+       width="3.00"
+       height="3.00">
+      <feOffset
+         result="offOut"
+         in="SourceGraphic"
+         dx="15.00"
+         dy="15.00"
+         id="feOffset6254" />
+      <feGaussianBlur
+         result="blurOut"
+         in="offOut"
+         stdDeviation="06.00"
+         id="feGaussianBlur6256" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut"
+         mode="normal"
+         id="feBlend6258" />
+    </filter>
+    <filter
+       id="filt-bracket-3"
+       x="-1.00"
+       y="-1.00"
+       width="3.00"
+       height="3.00">
+      <feOffset
+         result="offOut"
+         in="SourceAlpha"
+         dx="15.00"
+         dy="15.00"
+         id="feOffset6261" />
+      <feGaussianBlur
+         result="blurOut"
+         in="offOut"
+         stdDeviation="06.00"
+         id="feGaussianBlur6263" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut"
+         mode="normal"
+         id="feBlend6265" />
+    </filter>
+    <filter
+       id="filt-bracket-4"
+       x="-1.00"
+       y="-1.00"
+       width="3.00"
+       height="3.00">
+      <feOffset
+         result="offOut"
+         in="SourceGraphic"
+         dx="32.00"
+         dy="32.00"
+         id="feOffset6268" />
+      <feColorMatrix
+         result="matrixOut"
+         in="offOut"
+         type="matrix"
+         values="0.35 0 0 0 0 0 0.35 0 0 0 0 0 0.35 0 0 0 0 0 0.50 0"
+         id="feColorMatrix6270" />
+      <feGaussianBlur
+         result="blurOut"
+         in="matrixOut"
+         stdDeviation="08.00"
+         id="feGaussianBlur6272" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut"
+         mode="normal"
+         id="feBlend6274" />
+    </filter>
+    <filter
+       id="filt-bracket-5"
+       x="-1.00"
+       y="-1.00"
+       width="3.00"
+       height="3.00">
+      <feOffset
+         result="offOut"
+         in="SourceGraphic"
+         dx="32.00"
+         dy="32.00"
+         id="feOffset6277" />
+      <feColorMatrix
+         result="matrixOut"
+         in="offOut"
+         type="matrix"
+         values="0.35 0 0 0 0 0 0.35 0 0 0 0 0 0.35 0 0 0 0 0 0.25 0"
+         id="feColorMatrix6279" />
+      <feGaussianBlur
+         result="blurOut"
+         in="matrixOut"
+         stdDeviation="09.00"
+         id="feGaussianBlur6281" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut"
+         mode="normal"
+         id="feBlend6283" />
+    </filter>
+    <filter
+       id="filt-info-char-5"
+       x="-1.00"
+       y="-1.00"
+       width="3.00"
+       height="3.00">
+      <feOffset
+         result="offOut"
+         in="SourceGraphic"
+         dx="16.00"
+         dy="16.00"
+         id="feOffset6286" />
+      <feColorMatrix
+         result="matrixOut"
+         in="offOut"
+         type="matrix"
+         values="0.35 0 0 0 0 0 0.35 0 0 0 0 0 0.35 0 0 0 0 0 0.50 0"
+         id="feColorMatrix6288" />
+      <feGaussianBlur
+         result="blurOut"
+         in="matrixOut"
+         stdDeviation="08.00"
+         id="feGaussianBlur6290" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut"
+         mode="normal"
+         id="feBlend6292" />
+    </filter>
+    <filter
+       id="filt-info-char-6"
+       x="-1.00"
+       y="-1.00"
+       width="3.00"
+       height="3.00">
+      <feOffset
+         result="offOut"
+         in="SourceGraphic"
+         dx="16.00"
+         dy="16.00"
+         id="feOffset6295" />
+      <feColorMatrix
+         result="matrixOut"
+         in="offOut"
+         type="matrix"
+         values="0.15 0 0 0 0 0 0.15 0 0 0 0 0 0.20 0 0 0 0 0 0.80 0"
+         id="feColorMatrix6297" />
+      <feGaussianBlur
+         result="blurOut"
+         in="matrixOut"
+         stdDeviation="08.00"
+         id="feGaussianBlur6299" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut"
+         mode="normal"
+         id="feBlend6301" />
+    </filter>
+    <path
+       id="path-left-bracket"
+       stroke-width="7.00"
+       fill-rule="evenodd"
+       fill-opacity="0.92"
+       stroke-opacity="0.92"
+       stroke="url(#grad-glyphrad-2)"
+       fill="url(#grad-jay-vert-1)"
+       d="   M  146.00, 400.00    a  090.00, 090.00,  1, 0, 1,  048.00, 076.00   a  700.00, 700.00,  1, 0, 1, -003.00, 085.00   a  700.00, 700.00,  1, 0, 0, -006.00, 085.00   a  057.00, 045.00,  1, 0, 0,  065.00, 044.00   l -002.00, 037.00    a  107.00, 070.00,  1, 0, 1, -121.00,-060.00   a  090.00, 150.00,  1, 0, 1, -005.00,-100.00   a  400.00, 500.00,  1, 0, 0,  007.00,-085.00    a  025.00, 044.00,  1, 0, 0, -014.00,-045.00   a  130.00, 230.00,  1, 0, 0, -056.00,-019.00   l  002.00,-037.00   a  060.00, 040.00,  1, 0, 0,  065.00,-030.00   a  170.00, 150.00,  1, 0, 0,  003.00,-050.00    a  900.00, 900.00,  1, 0, 1, -009.00,-120.00   a  093.00, 096.00,  1, 0, 1,  089.00,-106.00   a  250.00, 250.00,  1, 0, 1,  041.00,-001.00    l  001.00, 036.00   a  060.00, 050.00,  1, 0, 0, -066.00, 050.00   a  180.00, 180.00,  1, 0, 0, -000.00, 030.00   a  750.00, 850.00,  1, 0, 0,  008.00, 080.00    a  950.00, 950.00,  1, 0, 1,  002.00, 050.00   a  115.00, 100.00,  1, 0, 1, -049.00, 081.00   " />
+  </defs>
+  <!-- ## Start: Main Objects ## -->
+  <g
+     id="g_main-objects"
+     fill="none"
+     stroke="#000"
+     stroke-width="1.00">
+    <circle
+       cx="124.00"
+       cy="400.00"
+       r="2.00"
+       id="circle6306" />
+    <g
+       id="g_filt_1"
+       transform="translate(0,-30)"
+       style="filter:url(#filt-bracket-5)">
+      <use
+         xlink:href="#path-left-bracket"
+         id="use6308"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#path-left-bracket"
+         transform="translate(250)"
+         id="use6310"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <!--
+    ## Glyph-Circle ##  Version (4):
+    stroke="url(#grad-glyphrad-2)"
+    fill="url(#grad-jay-vert-1)"
+
+    ## Glyph-Circle ##  Version (5):
+    stroke="url(#grad-glyphrad-border-3)"
+    fill="url(#grad-glyphrad-body-4)"
+-->
+    <circle
+       cx="884.00"
+       cy="364.00"
+       r="346.00"
+       id="circle6313"
+       filter="url(#filt-bracket-5)"
+       stroke-opacity="0.92"
+       stroke-width="7.00"
+       stroke="url(#grad-glyphrad-border-3)"
+       fill-opacity="0.92"
+       fill="url(#grad-glyphrad-body-4)" />
+    <g
+       id="g_filt_2"
+       transform="translate(0,-30)"
+       style="filter:url(#filt-bracket-5)">
+      <use
+         xlink:href="#path-left-bracket"
+         transform="matrix(-1,0,0,1,1516,0)"
+         id="use6315"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#path-left-bracket"
+         transform="matrix(-1,0,0,1,1766,0)"
+         id="use6317"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <!--
+    fill-opacity="0.92" stroke-opacity="0.92"
+    fill-opacity="0.96" stroke-opacity="0.96"
+    fill-opacity="0.96" stroke-opacity="0.98"
+    -->
+    <g
+       id="g_info-char"
+       filter="url(#filt-info-char-6)"
+       stroke-opacity="0.98"
+       stroke-width="2.00"
+       stroke="#d0d0ff"
+       fill-rule="evenodd"
+       fill-opacity="0.96"
+       fill="#ffffff">
+      <path
+         id="path-info-char-body"
+         d="     M  784.00, 254.00     h  150.00  v  300.00     a  035.00, 028.00,  1, 0, 0,  041.00, 025.00     v  021.00  h -192.00  v -021.00      a  035.00, 028.00,  1, 0, 0,  040.00,-024.00     v -255.00     a  040.00, 026.00,  1, 0, 0, -039.00,-026.00     z" />
+      <path
+         id="path6321"
+         d="     M  876.00, 090.00     a  063.00, 063.00,  1, 0, 1,  063.00, 060.00     a  063.00, 060.00,  1, 0, 1, -063.00, 060.00     a  058.00, 060.00,  1, 0, 1, -058.00,-060.00     a  058.00, 060.00,  1, 0, 1,  058.00,-060.00     z" />
+    </g>
+  </g>
+  <!-- ## End: Main Objects ## -->
+</svg>

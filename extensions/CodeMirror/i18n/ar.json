@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shbib Al-Subaie",
+			"ديفيد",
+			"Cigaryno",
+			"FShbib",
+			"Lolekek",
+			"علاء",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"codemirror-desc": "يوفر إبراز التركيب في محرر نص الويكي",
+	"codemirror-toggle-label": "إبراز التركيب",
+	"codemirror-prefs-colorblind": "فعّل مخططًا متوافقًا مع عمى الألوان لإبراز التركيب عند تعديل نص ويكي.",
+	"codemirror-prefs-colorblind-help": "لن يعمل هذا التفضيل إذا كنت تستخدم إضافةً لإبراز التركيب.",
+	"prefs-accessibility": "إمكانية الوصول"
+}

@@ -1,0 +1,29 @@
+a {
+    &.tile-small,
+    &.tile-medium,
+    &.tile-wide,
+    &.tile-large,
+    &.tile-app {
+        color: #fff;
+
+        &:visited {
+            color: #fff;
+        }
+
+        &:visited:hover {
+            color: #fff;
+        }
+    }
+}
+
+.tiles-group {
+    margin: 10px 0;
+}
+
+.tiles-group::before {
+    font-size: 1.2em;
+}
+
+.tiles-group[data-group-title] {
+    margin-top: 3em;
+}

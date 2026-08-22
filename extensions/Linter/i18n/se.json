@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yupik",
+			"Kimberli Mäkäräinen (WMNO)"
+		]
+	},
+	"linterrors": "Lint-feaillat",
+	"linter-category-missing-end-tag": "Loahppagilkor váilu",
+	"linter-category-wikilink-in-extlink": "Liŋkkat liŋkkain",
+	"linter-form-namespace": "Nammagomuvuohta:",
+	"linter-numerrors": "($1 {{PLURAL:$1|meattáhus|meattáhusa}})",
+	"linter-pager-title-header": "Siidonamma",
+	"linterrors-subpage": "Lint-feaillat: $1",
+	"pageinfo-linter": "Lint-feaillat"
+}

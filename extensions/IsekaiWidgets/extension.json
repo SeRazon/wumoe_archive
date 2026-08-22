@@ -1,0 +1,186 @@
+{
+    "name": "Isekai Widgets",
+    "namemsg": "isekai-widgets",
+    "author": "Hyperzlib",
+    "version": "1.0.3",
+    "url": "https://github.com/Isekai-Project/mediawiki-extension-IsekaiWidgets",
+    "descriptionmsg": "isekai-widgets-desc",
+    "license-name": "GPL-2.0-or-later",
+    "type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+    "MessagesDirs": {
+        "IsekaiWidgets": [
+            "i18n"
+        ]
+    },
+	"ExtensionMessagesFiles": {
+		"IsekaiWidgetsMagic": "IsekaiWidgets.i18n.php"
+	},
+    "AutoloadNamespaces": {
+        "Isekai\\Widgets\\": "includes"
+    },
+    "Hooks": {
+        "ParserFirstCallInit": "Isekai\\Widgets\\Widgets::onParserSetup",
+		"BeforePageDisplay": "Isekai\\Widgets\\Widgets::onLoad"
+    },
+    "ResourceModules": {
+        "ext.isekai.widgets.global": {
+            "styles": [
+                "ext.isekai.widgets.global.less"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ]
+        },
+        "ext.isekai.createPage": {
+            "scripts": [
+                "createPage/ext.isekai.createPage.js",
+                "createPage/ext.isekai.createPage.base.js"
+            ],
+            "styles": [
+                "createPage/ext.isekai.createPage.base.less"
+            ],
+            "dependencies": [
+                "oojs-ui-core"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ],
+            "messages": [
+                "isekai-createpage-page-title",
+                "isekai-createpage-create-page-button",
+                "isekai-createpage-page-exists",
+                "isekai-createpage-title-empty",
+                "isekai-createpage-redirecting"
+            ]
+        },
+        "ext.isekai.discover": {
+            "scripts": [
+                "discover/ext.isekai.discover.js",
+                "discover/ext.isekai.discover.base.js"
+            ],
+            "styles": [
+                "discover/ext.isekai.discover.base.less"
+            ],
+            "dependencies": [
+                "oojs",
+                "oojs-ui-core",
+                "oojs-ui.styles.icons-interactions"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ],
+            "messages": [
+                "isekai-discover-change-btn",
+                "isekai-discover-readmore-btn",
+                "isekai-discover-error-cannotload"
+            ]
+        },
+        "ext.isekai.feedList": {
+            "styles": [
+                "feedList/ext.isekai.feedList.less"
+            ],
+            "packageFiles": [
+                { "name": "isekaiFeedList", "file": "feedList/ext.isekai.feedList.js", "main": true },
+                { "name": "FeedList.vue", "file": "feedList/FeedList.vue" }
+            ],
+            "es6": true,
+            "dependencies": [
+                "oojs-ui-core",
+				"oojs-ui.styles.icons-movement",
+                "vue"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ]
+        },
+        "ext.isekai.information.infobox": {
+            "styles": [
+                "information/ext.isekai.information.infobox.less"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ]
+        },
+        "ext.isekai.previewCard": {
+            "scripts": [
+                "previewCard/ext.isekai.previewCard.js"
+            ],
+            "styles": [
+                "previewCard/ext.isekai.previewCard.less"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ],
+            "messages": [
+                
+            ]
+        },
+        "ext.isekai.tile": {
+            "scripts": [
+                "tile/ext.isekai.tile.js"
+            ],
+            "styles": [
+                "tile/ext.isekai.tile.css",
+                "tile/style.less"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ]
+        },
+        "ext.isekai.collapse": {
+            "scripts": [
+                "ext.isekai.collapse.js"
+            ],
+            "styles": [
+                "ext.isekai.collapse.less"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ]
+        },
+        "ext.isekai.buttonLink": {
+            "scripts": [
+                "buttonLink/ext.isekai.buttonLink.js"
+            ],
+            "dependencies": [
+                "oojs-ui-core"
+            ],
+            "targets": [
+                "desktop",
+                "mobile"
+            ]
+        }
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "modules",
+        "remoteExtPath": "IsekaiWidgets/modules"
+    },
+    "attributes": {
+		"CodeMirror": {
+			"TagModes": {
+				"tilegroup": "text/mediawiki",
+                "exfont": "text/mediawiki",
+				"details": "text/mediawiki",
+				"summary": "text/mediawiki",
+                "veval": "text/mediawiki"
+			}
+		}
+    },
+    "config": {
+        "IsekaiWidgetInformationTextSeparator": {
+            "value": ": "
+        }
+    },
+    "manifest_version": 2
+}
